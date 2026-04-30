@@ -1,15 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: aliceblue;
+    background-color: rgb(85, 83, 83);
 }
 
 .container {
     max-width: 600px;
     margin: 30px auto;
-    background-color: #fff;
+    background-color: #dfd6d63f;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgb(61, 57, 57);
 }
 h2 {
     text-align: center;
