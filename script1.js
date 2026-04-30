@@ -1,20 +1,17 @@
+let display = document.getElementById("display");
 
-const display = document.getElementById("display");
-
-function appendtodisplay(input){
-    display.value += input;
+function append(value) {
+    display.value += value;
 }
 
-function cleardisplay(){
+function clearDisplay() {
     display.value = "";
 }
 
-function calculate(){
-    try{
+function calculate() {
+    try {
         display.value = eval(display.value);
-    }
-    catch(error){
+    } catch {
         display.value = "Error";
     }
 }
-    
