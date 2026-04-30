@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Dillan</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <nav>
+    <h1 class="logo">Dillan</h1>
+    <ul>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#education">Éducation</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Salut, je suis Dillan 👋</h2>
+  <p>Développeur web débutant passionné</p>
+</section>
+
+<section id="about">
+  <h2>À propos de moi</h2>
+
+  <p>
+    Actuellement en préparation du baccalauréat en mathématiques, je m’intéresse fortement au développement web.
+    J’ai acquis des bases solides en HTML, CSS et JavaScript en réalisant plusieurs projets pratiques.
+  </p>
+
+  <p>
+    Curieux, motivé et autonome, je cherche à approfondir mes connaissances en informatique et à intégrer une formation qui me permettra de développer mes compétences techniques et professionnelles.
+  </p>
+</section>
+
+<!-- PROJETS -->
+<section id="projets">
+  <h2>Mes Projets</h2>
+
+  <!-- Calculatrice -->
+  <div class="card hidden">
+    <h3>Calculatrice</h3>
+    <img src="/images/Capture d’écran (321).png" height="106.875" width="190">
+    <p>Application web avec opérations de base en JavaScript.</p>
+    <div class="buttons">
+        <a href="index1.html" target="_blank">Démo</a>
+        <a href="#">GitHub</a>
+    </div>
+  </div>
+
+  <!-- TODO -->
+  <div class="card hidden">
+    <h3>To-Do App</h3>
+    <img src="/images/Capture d’écran (326).png" height="106.875" width="190">
+    <p>Gestion de tâches avec ajout et suppression.</p>
+    <div class="buttons">
+      <a href="index2.html" target="_blank">Démo</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+  <!-- Portfolio -->
+  <div class="card hidden">
+    <h3>Site Portfolio</h3>
+    <p>Site personnel pour présenter mes projets et compétences.</p>
+    <div class="buttons">
+      <a href="#" target="_blank">Démo</a>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Éducation</h2>
+
+  <div class="card hidden">
+    <h3>Baccalauréat Mathématiques (en cours)</h3>
+    <p>Préparation du baccalauréat en mathématiques — Obtention prévue en 2026.</p>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+
+  <form>
+    <input type="text" placeholder="Nom" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<!-- POPUP -->
+<div id="popup" class="popup">
+  <div class="popup-content">
+    <span id="close">&times;</span>
+    <iframe id="preview"></iframe>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Dillan</p>
+  <div class="footer-links">
+    <a href="#projets">Projets</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#" class="top-btn">↑ Haut de page</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
